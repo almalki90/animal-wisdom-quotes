@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>حكم حيوانية</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="background-animation"></div>
     <div class="container">
-        <h1>حكمة اليوم</h1>
-        <blockquote id="quote-display">جاري تحميل الحكمة...</blockquote>
-        <p id="quote-source"></p>
-        <button id="new-quote-btn">حكمة جديدة</button>
+        <header>
+            <h1>🌿 حكم حيوانية فلسفية ✨</h1>
+            <p class="subtitle">استلهام من حياة الحيوان وصراعه من أجل البقاء</p>
+        </header>
+        
+        <main>
+            <div class="quote-card">
+                <blockquote id="quote-display">جاري تحميل الحكمة...</blockquote>
+                <footer id="quote-footer">
+                    <span id="quote-animal" class="animal-badge"></span>
+                    <span id="quote-source" class="source-text"></span>
+                </footer>
+            </div>
+            
+            <button id="new-quote-btn" class="btn-primary">حكمة جديدة</button>
+        </main>
+        
+        <footer class="page-footer">
+            <p>تحديث يومي تلقائي بحكم جديدة 📚</p>
+        </footer>
     </div>
-    <script src="script.js"></script>
+    
+    <script src="./script.js"></script>
 </body>
 </html>
